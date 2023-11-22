@@ -69,3 +69,9 @@
 
     최종 우승자 : pobi, jun
     ```
+
+# 🎯 프로그래밍 요구 사항
+- JDK 버전 : 17
+- 프로그램 실행의 시작 지점 : Application의 main()
+- build.gradle 파일 변경 금지, 외부 라이브러리 사용 불가
+- 프로그램 종료 시 System.exit() 호출 금지
