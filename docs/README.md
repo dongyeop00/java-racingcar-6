@@ -75,3 +75,22 @@
 - 프로그램 실행의 시작 지점 : Application의 main()
 - build.gradle 파일 변경 금지, 외부 라이브러리 사용 불가
 - 프로그램 종료 시 System.exit() 호출 금지
+
+# 구현 함수 목록
+
+## Controller
+- GameStart
+
+## Model
+- Car
+  - List<Car>를 사용하여 여러개의 Car 객체를 List에 저장
+- Game
+
+- GameResult
+
+
+## Service
+- d
+
+## View
+- GameView
