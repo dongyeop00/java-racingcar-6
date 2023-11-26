@@ -8,7 +8,6 @@ public class GameController {
     private final Game game = new Game();
 
     public GameController(){
-        View.ShowGameStart();
     }
 
     public void ShowGameStart(){
@@ -16,7 +15,7 @@ public class GameController {
     }
 
     public void Start(){
-        game.Initialize(); //자동차 값 받기
+        game.Initialize(); //시작값
 
     }
 }
