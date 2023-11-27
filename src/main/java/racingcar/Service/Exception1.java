@@ -2,6 +2,12 @@ package racingcar.Service;
 
 public class Exception1 {
 
+    public void allException(String CarName, int attempts){
+        CarIsNull(CarName);
+        //ValidateName(CarName);
+        ValidateAttempts(attempts);
+    }
+
     public void CarIsNull(String input){
         if(input == null){
             throw new IllegalArgumentException("입력값이 없습니다.");
