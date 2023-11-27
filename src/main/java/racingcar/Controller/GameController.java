@@ -1,21 +1,13 @@
 package racingcar.Controller;
 
-import racingcar.Model.Game;
-import racingcar.View.GameView;
+import racingcar.Model.RacingCars;
 
 public class GameController {
-    private final GameView View = new GameView();
-    private final Game game = new Game();
-
-    public GameController(){
-    }
-
-    public void ShowGameStart(){
-
-    }
+    RacingCars racingCars = new RacingCars();
 
     public void Start(){
-        game.Initialize(); //시작값
-
+        racingCars.initialize();
+        racingCars.PlayGame();
+        racingCars.announceWinners();
     }
 }
