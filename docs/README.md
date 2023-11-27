@@ -84,13 +84,21 @@
 ## Model
 - Car
   - List<Car>를 사용하여 여러개의 Car 객체를 List에 저장
-- Game
 
-- GameResult
+- RacingCars
+  - initialize : 자동차 이름 지정해주기
+    - splitCarName : , 마다 분류해주기
+    - setCarName : 여러 객체에 이름 지정해주기
+  - PlayGame : attempts만큼 게임 진행
+    - PlayRound : 랜덤값을 받아 4이상이면 움직이기
+  - announceWinners : 우승자 가리기
+    - getMaxPosition : 가장 큰 위치값 찾기
+    - getWinners : 최종 우수자, 공동 우수자 반환
 
 
 ## Service
-- d
+- Exception1 : 예외 처리 기능
 
 ## View
-- GameView
+- GameView : 게임 시작 문구
+- InputView : 
